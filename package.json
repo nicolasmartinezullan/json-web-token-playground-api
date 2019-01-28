@@ -1,0 +1,23 @@
+{
+  "name": "json-web-token-playground",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Nicolas Martinez <nicolas.martinez.ullan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon -w src",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "jwks-rsa": "^1.3.0",
+    "keypair": "^1.0.1",
+    "pem-jwk": "^2.0.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "nodemon": "^1.18.9"
+  }
+}
